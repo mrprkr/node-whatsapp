@@ -1,5 +1,5 @@
 {
-  "name": "node-waba-client",
+  "name": "waba-client",
   "version": "0.0.1-alpha",
   "description": "Simplified methods for Whatsapp Business Account - Cloud API",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "build:dev": "tsc-watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mrprkr",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2"
@@ -20,5 +20,23 @@
     "dotenv": "^16.0.1",
     "tsc": "^2.0.4",
     "tsc-watch": "^5.0.3"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrprkr/node-whatsapp.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "api",
+    "cloud",
+    "business"
+  ],
+  "bugs": {
+    "url": "https://github.com/mrprkr/node-whatsapp/issues"
+  },
+  "homepage": "https://github.com/mrprkr/node-whatsapp#readme"
 }
